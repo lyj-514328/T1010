@@ -1,0 +1,17 @@
+int a;
+int b;
+int func(int d,int f)
+{
+	int g=d+f;
+	return g;
+}
+int main(){
+	b=0;
+	a=3;
+	while(a>0){	
+		b = b+a;
+		a = a-1;
+		b=func(a,b);
+	}
+	return b;
+}	

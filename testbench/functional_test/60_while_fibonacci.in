@@ -1,0 +1,53 @@
+var g0
+
+Func main
+begin
+var u5
+var u8
+var u7
+var t12
+var t10
+var t13
+var t9
+var t15
+var t11
+var t14
+var t7
+var u4
+var u11
+var u6
+t7 = call getint
+g0 = t7
+u6 = g0
+u5 = 0
+u8 = 1
+t12 = (u6 == 0)
+ifz t12 goto L4
+u11 = 0
+goto L8
+label L4
+t10 = (u6 == 1)
+ifz t10 goto L5
+u11 = 1
+goto L8
+label L5
+t13 = (u6 > 1)
+ifz t13 goto L6
+label L7
+t9 = u5 + u8
+u7 = t9
+u5 = u8
+u8 = u7
+t15 = u6 - 1
+u6 = t15
+t11 = (u6 > 1)
+t14 = ! t11
+ifz t14 goto L7
+label L6
+u11 = u7
+goto L8
+label L8
+u4 = u11
+return u4
+end
+var g0

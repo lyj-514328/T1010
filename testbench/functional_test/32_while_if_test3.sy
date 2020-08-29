@@ -1,0 +1,15 @@
+
+int main() {
+  int d;
+  int c;
+  c = 2;
+  while (c < 75) {
+    d = 42;
+    if (c < 100) {
+      c = c + d; 
+      }
+    }
+	return c;
+  }
+  
+ 
